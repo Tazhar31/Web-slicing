@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Liquid MLBB | TLPH</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+<script src="main.js"></script>
+    <style>
+        /* CSS kustom untuk warna latar belakang gelap yang dominan */
+        /* Anda bisa menggunakan font-weight 700 (Bold) atau 800 (ExtraBold) */
+.kaneda-style {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; /* Extra Bold */
+    /* letter-spacing: 0.25em; Jarak antar huruf sangat lebar */
+    text-transform: uppercase; /* Mengubah teks menjadi huruf kapital semua */
+}
+        body {
+            background-color: #001538; /* Warna biru gelap */
+            color: #ffffff;
+        }
+
+        .bg-secondary {
+            background-color: #001538; /* Warna biru tua untuk header */
+        }
+
+        .bg-thirdary {
+            background-color: #000f29; /* Warna biru sedang untuk bagian lain */
+        }
+
+        .footer-bg {
+            background-color: #03081E; /* Warna biru gelap Team Liquid */
+        }
+        /* Style untuk ikon Alienware (jika tidak menggunakan SVG asli) */
+        .alienware-icon {
+            font-family: Arial, sans-serif;
+            font-size: 1.25rem; /* Ukuran yang sesuai */
+        }
+        .bg-hover {
+            background-color: #0a1831; /* Warna biru hover */
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="bg-thirdary py-5 pr-[190px] gap-2 flex justify-end align-items-center space-x-3 text-white">
+        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-6 w-auto hover:text-gray-400 transition">
+            <title>Alienware</title>
+            <path 
+            fill="currentColor"
+            d="M20.382 9.4054c-.0649-.6486-.1297-1.3622-.2595-2.0108-.1297-.6487-.2594-1.2973-.5189-1.946-.1297-.3243-.2595-.6486-.3892-.908-.1297-.3244-.3243-.5838-.454-.9082-.1946-.2594-.3892-.5838-.5838-.8432-.1946-.2595-.454-.519-.7135-.7135-.454-.3892-.973-.7784-1.5568-1.1027-.5838-.3244-1.2324-.5838-1.881-.7135C13.3765.0649 12.7278 0 12.0143 0c-.7135 0-1.3621.0649-2.0108.2595C9.355.3892 8.7712.6486 8.1874.973c-.6487.3243-1.1676.7135-1.6865 1.1675-.2595.1946-.454.454-.7135.7136l-.5838.7783c-.1297.3244-.3243.5838-.454.9081l-.3892.973c-.1946.6487-.3892 1.2973-.519 1.946-.1297.6486-.1946 1.2973-.2594 2.0108-.0649.7135 0 1.2973 0 1.946 0 .6486.0648 1.2972.1946 2.0107l.1946.973c.0648.3243.1946.6486.3243.973.454 1.2324 1.1676 2.4 1.881 3.5027.3893.5838.7785 1.1027 1.1676 1.6216.3892.519.7784 1.1027 1.2325 1.5568.1946.2594.454.454.7135.7135.2594.1946.519.3892.8432.5837.2595.1946.5838.3244.9081.4541.1298.0649.3244.1297.4541.1297.1946 0 .3243.0649.519.0649.1945 0 .3242 0 .5188-.0649.1946 0 .3244-.0648.454-.1297.3244-.1297.6487-.2595.9082-.454.2595-.1946.5838-.3892.8432-.5838.2595-.1946.519-.454.7136-.7135.454-.519.8432-1.0379 1.2324-1.5568.3892-.519.7784-1.1027 1.1676-1.6216.7135-1.1027 1.427-2.2703 1.881-3.5027.1298-.3244.2595-.6487.3244-.973.0648-.3243.1946-.6486.1946-.973.1297-.6486.1945-1.2973.1945-2.0108 0-.6486 0-1.3621-.0648-2.0108zM4.8144 12.0649s3.6973.8432 6.0973 5.8378c-.0649 0-6.4216-.1297-6.0973-5.8378zm8.3676 5.8378c2.3351-4.9946 6.0973-5.8378 6.0973-5.8378.3243 5.708-6.0973 5.8378-6.0973 5.8378z"/>
+            </svg>
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-6 w-auto hover:text-gray-400 transition">
+                <title>Discord</title>
+                <path 
+                    fill="currentColor"
+                    d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/>
+            </svg>
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-6 w-auto hover:text-gray-400 transition">
+                <title>Facebook</title>
+                <path
+                fill="currentColor"
+                    d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/>
+            </svg>
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-6 w-auto hover:text-gray-400 transition">
+                <title>Reddit</title>
+                <path 
+                fill="currentColor"
+                d="M12 0C5.373 0 0 5.373 0 12c0 3.314 1.343 6.314 3.515 8.485l-2.286 2.286C.775 23.225 1.097 24 1.738 24H12c6.627 0 12-5.373 12-12S18.627 0 12 0Zm4.388 3.199c1.104 0 1.999.895 1.999 1.999 0 1.105-.895 2-1.999 2-.946 0-1.739-.657-1.947-1.539v.002c-1.147.162-2.032 1.15-2.032 2.341v.007c1.776.067 3.4.567 4.686 1.363.473-.363 1.064-.58 1.707-.58 1.547 0 2.802 1.254 2.802 2.802 0 1.117-.655 2.081-1.601 2.531-.088 3.256-3.637 5.876-7.997 5.876-4.361 0-7.905-2.617-7.998-5.87-.954-.447-1.614-1.415-1.614-2.538 0-1.548 1.255-2.802 2.803-2.802.645 0 1.239.218 1.712.585 1.275-.79 2.881-1.291 4.64-1.365v-.01c0-1.663 1.263-3.034 2.88-3.207.188-.911.993-1.595 1.959-1.595Zm-8.085 8.376c-.784 0-1.459.78-1.506 1.797-.047 1.016.64 1.429 1.426 1.429.786 0 1.371-.369 1.418-1.385.047-1.017-.553-1.841-1.338-1.841Zm7.406 0c-.786 0-1.385.824-1.338 1.841.047 1.017.634 1.385 1.418 1.385.785 0 1.473-.413 1.426-1.429-.046-1.017-.721-1.797-1.506-1.797Zm-3.703 4.013c-.974 0-1.907.048-2.77.135-.147.015-.241.168-.183.305.483 1.154 1.622 1.964 2.953 1.964 1.33 0 2.47-.81 2.953-1.964.057-.137-.037-.29-.184-.305-.863-.087-1.795-.135-2.769-.135Z"/>
+            </svg>
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-6 w-auto hover:text-gray-400 transition">
+                <title>Twitch</title>
+                <path 
+                fill="currentColor"
+                d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z"/>
+            </svg>
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-6 w-auto hover:text-gray-400 transition">
+                <title>X</title>
+                <path 
+                fill="currentColor"
+                d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z"/>
+            </svg>
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-6 w-auto hover:text-gray-400 transition">
+                <title>YouTube</title>
+                <path 
+                fill="currentColor"
+                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+    </div>
+
+    <header class="bg-secondary text-white relative shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20"> <div class="flex-shrink-0 z-20 -my-4"> <img src="images/tlid.png" alt="Team Liquid Logo" class="h-36 w-auto"> </div>
+                
+                <nav class="flex items-center justify-center flex-grow ml-6">
+                    <div class="flex items-center space-x-6">
+                        
+                        <div class="relative group">
+                            <button class="text-white hover:text-gray-300 px-3 py-2 text-base font-medium inline-flex items-center">
+                                Tim
+                                <svg class="ml-1 h-6 w-auto" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                            </button>
+                            <div class="absolute z-10 hidden group-hover:block bg-thirdary text-white shadow-lg py-2 w-40 mt-2 rounded-md">
+                                <a href="index.html" class="block px-4 py-2 text-sm hover:bg-hover">Team Liquid ID</a>
+                            </div>
+                        </div>
+
+                        <div class="relative group">
+                            <button class="text-white hover:text-gray-300 px-3 py-2 text-base font-medium inline-flex items-center">
+                                Organisasi
+                                <svg class="ml-1 h-6 w-auto" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                            </button>
+                            <div class="absolute z-10 hidden group-hover:block bg-thirdary text-white shadow-lg py-2 w-40 mt-2 rounded-md">
+                                <a href="#" class="block px-4 py-2 text-sm hover:bg-hover">Sub Tim 1</a>
+                            </div>
+                        </div>
+
+                        <a href="#" class="text-white hover:text-gray-300 px-3 py-2 text-base font-medium">Jadwal</a>
+
+                        <div class="relative group">
+                            <button class="text-white hover:text-gray-300 px-3 py-2 text-base font-medium inline-flex items-center">
+                                Fandom
+                                <svg class="ml-1 h-6 w-auto" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                            </button>
+                            <div class="absolute z-10 hidden group-hover:block bg-thirdary text-white shadow-lg py-2 w-40 mt-2 rounded-md">
+                                <a href="#" class="block px-4 py-2 text-sm hover:bg-hover">Sub Fandom 1</a>
+                                <a href="#" class="block px-4 py-2 text-sm hover:bg-hover">Sub Fandom 2</a>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="text-white hover:text-gray-300 px-3 py-2 text-base font-medium">The Vault</a>
+                        
+                        <a href="#" class="text-white hover:text-gray-300 px-3 py-2 text-base font-medium inline-flex items-center space-x-1">
+                            <span>Toko</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                              <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 0 0 1.06 0l7.22-7.22V10a.75.75 0 0 0 1.5 0V5.25a.75.75 0 0 0-.75-.75h-4.75a.75.75 0 0 0 0 1.5h2.56l-7.22 7.22a.75.75 0 0 0 0 1.06Z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        
+                    </div>
+                </nav>
+
+                <div class="flex items-center flex-shrink-0">
+                    <button class="bg-[#f8c95f] text-black px-6 py-3 rounded-lg text-base font-medium hover:bg-[#f9d279] transition duration-150 shadow-md">
+                        Akun
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+<main class="p-24">
+  <h1 class="text-5xl font-bold">Jadwal</h1>
+  <p class="text-gray-300 mt-3">
+    Tetap terbaru, terlibat, dan berada di tengah aksi permainan kami.
+  </p>
+
+  <a href="#" class="text-[#f8c95f] mt-4 inline-flex items-center gap-1 font-semibold">
+    Daftar untuk menyesuaikan
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" 
+      stroke="currentColor" class="w-5 h-5">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/>
+    </svg>
+  </a>
+
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 mt-14">
+
+    <!-- LEFT COLUMN (events) -->
+    <div class="lg:col-span-8 space-y-10">
+
+      <!-- Acara Langsung -->
+      <div>
+        <h2 class="text-xl font-bold mb-4">Acara Langsung</h2>
+
+        <div class="bg-[#102542] rounded-xl p-5 relative">
+          <span class="absolute right-5 top-5 uppercase text-xs text-yellow-300 font-bold">
+            LANGSUNG
+          </span>
+
+          <h3 class="text-lg font-semibold">
+            The Outback Octagon 4
+          </h3>
+
+          <div class="mt-3 space-y-1 text-gray-300">
+            <p>• Batune</p>
+            <p>• DeMu</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hari Ini -->
+      <div>
+        <h2 class="text-xl font-bold mb-3">Hari Ini</h2>
+
+        <div class="bg-[#102542] rounded-xl p-5">
+          <p class="text-sm text-gray-400 mb-1">21:30 UTC+7</p>
+
+          <h3 class="font-semibold text-lg">DreamLeague Season 27</h3>
+
+          <div class="mt-3 space-y-1 text-gray-300">
+            <p>• Team Spirit</p>
+            <p>• Team Liquid</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Besok -->
+      <div>
+        <h2 class="text-xl font-bold mb-3">Besok</h2>
+
+        <div class="bg-[#102542] rounded-xl p-5">
+          <p class="text-sm text-gray-400 mb-1">02:00 UTC+7</p>
+
+          <h3 class="font-semibold text-lg">
+            Project Blender 2025: Phase 4
+          </h3>
+
+          <div class="mt-3 space-y-1 text-gray-300">
+            <p>• Team Liquid Academy</p>
+            <p>• FUT Esports</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contoh tanggal lain -->
+      <div>
+        <h2 class="text-xl font-bold mb-3">Min, Des 14</h2>
+
+        <div class="space-y-4">
+          <div class="bg-[#102542] rounded-xl p-5">
+            <p class="text-sm text-gray-400 mb-1">01:00 UTC+7</p>
+            <h3 class="font-semibold text-lg">UEFA eEuro 2025</h3>
+            <div class="mt-3 space-y-1 text-gray-300">
+              <p>• EmreYilmaz</p>
+              <p>• RvPLegend</p>
+            </div>
+          </div>
+
+          <div class="bg-[#102542] rounded-xl p-5">
+            <p class="text-sm text-gray-400 mb-1">21:20 UTC+7</p>
+            <h3 class="font-semibold text-lg">WardiTV 2025</h3>
+            <div class="mt-3 text-gray-300 space-y-1">
+              <p>• HerO (Kim Joon Ho)</p>
+              <p>• Clem</p>
+            </div>
+          </div>
+
+          <div class="bg-[#102542] rounded-xl p-5">
+            <p class="text-sm text-gray-400 mb-1">22:00 UTC+7</p>
+            <h3 class="font-semibold text-lg">WardiTV 2025</h3>
+            <div class="mt-3 text-gray-300 space-y-1">
+              <p>• SHIN</p>
+              <p>• Clem</p>
+            </div>
+          </div>
+
+          <div class="bg-[#102542] rounded-xl p-5">
+            <p class="text-sm text-gray-400 mb-1">23:20 UTC+7</p>
+            <h3 class="font-semibold text-lg">WardiTV 2025</h3>
+            <div class="mt-3 text-gray-300 space-y-1">
+              <p>• ShoWTimE</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hari Tidak Ada Jadwal -->
+      <div>
+        <h2 class="text-xl font-bold mb-2">Sen, Des 15</h2>
+        <p class="text-gray-400">Tidak ada acara yang terjadwal pada hari ini.</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl font-bold mb-2">Sel, Des 16</h2>
+        <p class="text-gray-400">Tidak ada acara yang terjadwal pada hari ini.</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl font-bold mb-2">Rab, Des 17</h2>
+        <p class="text-gray-400">Tidak ada acara yang terjadwal pada hari ini.</p>
+      </div>
+
+      <div>
+        <h2 class="text-xl font-bold mb-2">Kam, Des 18</h2>
+        <p class="text-gray-400">Tidak ada acara yang terjadwal pada hari ini.</p>
+      </div>
+
+    </div>
+
+    <!-- RIGHT COLUMN (live stream) -->
+    <div class="lg:col-span-4">
+      <h2 class="text-xl font-bold mb-4">Tayangan Langsung</h2>
+
+      <div class="bg-[#102542] p-5 rounded-xl space-y-5">
+
+        <div class="flex items-center gap-4">
+          <img src="https://api.dicebear.com/7.x/shapes/svg?seed=A1" class="w-11 h-11 rounded-full">
+          <div>
+            <p class="font-semibold">harmii</p>
+            <p class="text-sm text-gray-400">VALORANT</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <img src="https://api.dicebear.com/7.x/shapes/svg?seed=B1" class="w-11 h-11 rounded-full">
+          <div>
+            <p class="font-semibold">mendo</p>
+            <p class="text-sm text-gray-400">I’m Only Sleeping</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <img src="https://api.dicebear.com/7.x/shapes/svg?seed=C3" class="w-11 h-11 rounded-full">
+          <div>
+            <p class="font-semibold">qojqva</p>
+            <p class="text-sm text-gray-400">Dota 2</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <img src="https://api.dicebear.com/7.x/shapes/svg?seed=D5" class="w-11 h-11 rounded-full">
+          <div>
+            <p class="font-semibold">saintvicious</p>
+            <p class="text-sm text-gray-400">Teamfight Tactics</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="footer-bg text-white py-12 px-4">
+    <div class="max-w-7xl mx-auto">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+
+            <div class="space-y-6 md:space-y-8">
+                <div class="flex items-center space-x-3">
+                    <div class="w-20 h-2 rounded-full flex items-center justify-center">
+                        <img src="images/tlid.png" alt="">
+                    </div>
+                    <span class="text-xl font-bold kaneda-style">TEAM LIQUID</span>
+                </div>
+                <p class="text-sm text-gray-400 max-w-sm">
+                    Organisasi gim profesional kelas dunia yang didirikan pada tahun 2000.
+                </p>
+                <div class="flex flex-wrap gap-x-6 gap-y-2 text-base font-semibold">
+                    <a href="#" class="hover:text-blue-400">Tim</a>
+                    <a href="#" class="hover:text-blue-400">Mitra</a>
+                    <a href="#" class="hover:text-blue-400">Karir <i class="fa-solid fa-arrow-up-right-from-square text-xs ml-1"></i></a>
+                    <a href="#" class="hover:text-blue-400">Jadwal</a>
+                    <a href="#" class="hover:text-blue-400">Toko <i class="fa-solid fa-arrow-up-right-from-square text-xs ml-1"></i></a>
+                    <a href="#" class="hover:text-blue-400">Kit Merek</a>
+                    <a href="#" class="hover:text-blue-400">Kontak</a>
+                </div>
+            </div>
+            
+            <div class="flex justify-start md:justify-end items-start mt-4 md:mt-0">
+                <div class="relative w-full md:w-56">
+                    <select class="appeKarlTzyce-none bg-transparent border border-gray-600 text-white py-2 pl-4 pr-10 rounded-md focus:outline-none focus:border-blue-500 w-full">
+                        <option value="id">Indonesian</option>
+                        <option value="en">English</option>
+                        </select>
+                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-400">
+                        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <hr class="border-gray-700 my-8">
+
+        <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400 space-y-4 md:space-y-0">
+            
+            <div class="flex flex-wrap space-x-4">
+                <span>© 2000 – 2025 Team Liquid</span>
+                <a href="#" class="hover:text-white">Syarat & Ketentuan</a>
+                <a href="#" class="hover:text-white">Preferensi Cookie</a>
+            </div>
+
+            <div>
+        <div class=" pe-[180px] pr-0 flex justify-end align-items-center space-x-4">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 m-lg-4 mt-1">
+                <title>Alienware</title>
+                <path 
+                fill="white"
+                d="M20.382 9.4054c-.0649-.6486-.1297-1.3622-.2595-2.0108-.1297-.6487-.2594-1.2973-.5189-1.946-.1297-.3243-.2595-.6486-.3892-.908-.1297-.3244-.3243-.5838-.454-.9082-.1946-.2594-.3892-.5838-.5838-.8432-.1946-.2595-.454-.519-.7135-.7135-.454-.3892-.973-.7784-1.5568-1.1027-.5838-.3244-1.2324-.5838-1.881-.7135C13.3765.0649 12.7278 0 12.0143 0c-.7135 0-1.3621.0649-2.0108.2595C9.355.3892 8.7712.6486 8.1874.973c-.6487.3243-1.1676.7135-1.6865 1.1675-.2595.1946-.454.454-.7135.7136l-.5838.7783c-.1297.3244-.3243.5838-.454.9081l-.3892.973c-.1946.6487-.3892 1.2973-.519 1.946-.1297.6486-.1946 1.2973-.2594 2.0108-.0649.7135 0 1.2973 0 1.946 0 .6486.0648 1.2972.1946 2.0107l.1946.973c.0648.3243.1946.6486.3243.973.454 1.2324 1.1676 2.4 1.881 3.5027.3893.5838.7785 1.1027 1.1676 1.6216.3892.519.7784 1.1027 1.2325 1.5568.1946.2594.454.454.7135.7135.2594.1946.519.3892.8432.5837.2595.1946.5838.3244.9081.4541.1298.0649.3244.1297.4541.1297.1946 0 .3243.0649.519.0649.1945 0 .3242 0 .5188-.0649.1946 0 .3244-.0648.454-.1297.3244-.1297.6487-.2595.9082-.454.2595-.1946.5838-.3892.8432-.5838.2595-.1946.519-.454.7136-.7135.454-.519.8432-1.0379 1.2324-1.5568.3892-.519.7784-1.1027 1.1676-1.6216.7135-1.1027 1.427-2.2703 1.881-3.5027.1298-.3244.2595-.6487.3244-.973.0648-.3243.1946-.6486.1946-.973.1297-.6486.1945-1.2973.1945-2.0108 0-.6486 0-1.3621-.0648-2.0108zM4.8144 12.0649s3.6973.8432 6.0973 5.8378c-.0649 0-6.4216-.1297-6.0973-5.8378zm8.3676 5.8378c2.3351-4.9946 6.0973-5.8378 6.0973-5.8378.3243 5.708-6.0973 5.8378-6.0973 5.8378z"/>
+            </svg>
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 m-lg-4 mt-1">
+                <title>Discord</title>
+                <path 
+                    fill="white"
+                    d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/>
+            </svg>
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 m-lg-4 mt-1">
+                <title>Facebook</title>
+                <path
+                fill="white"
+                    d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/>
+            </svg>
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 m-lg-4 mt-1">
+                <title>Reddit</title>
+                <path 
+                fill="white"
+                d="M12 0C5.373 0 0 5.373 0 12c0 3.314 1.343 6.314 3.515 8.485l-2.286 2.286C.775 23.225 1.097 24 1.738 24H12c6.627 0 12-5.373 12-12S18.627 0 12 0Zm4.388 3.199c1.104 0 1.999.895 1.999 1.999 0 1.105-.895 2-1.999 2-.946 0-1.739-.657-1.947-1.539v.002c-1.147.162-2.032 1.15-2.032 2.341v.007c1.776.067 3.4.567 4.686 1.363.473-.363 1.064-.58 1.707-.58 1.547 0 2.802 1.254 2.802 2.802 0 1.117-.655 2.081-1.601 2.531-.088 3.256-3.637 5.876-7.997 5.876-4.361 0-7.905-2.617-7.998-5.87-.954-.447-1.614-1.415-1.614-2.538 0-1.548 1.255-2.802 2.803-2.802.645 0 1.239.218 1.712.585 1.275-.79 2.881-1.291 4.64-1.365v-.01c0-1.663 1.263-3.034 2.88-3.207.188-.911.993-1.595 1.959-1.595Zm-8.085 8.376c-.784 0-1.459.78-1.506 1.797-.047 1.016.64 1.429 1.426 1.429.786 0 1.371-.369 1.418-1.385.047-1.017-.553-1.841-1.338-1.841Zm7.406 0c-.786 0-1.385.824-1.338 1.841.047 1.017.634 1.385 1.418 1.385.785 0 1.473-.413 1.426-1.429-.046-1.017-.721-1.797-1.506-1.797Zm-3.703 4.013c-.974 0-1.907.048-2.77.135-.147.015-.241.168-.183.305.483 1.154 1.622 1.964 2.953 1.964 1.33 0 2.47-.81 2.953-1.964.057-.137-.037-.29-.184-.305-.863-.087-1.795-.135-2.769-.135Z"/>
+            </svg>
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 m-lg-4 mt-1">
+                <title>Twitch</title>
+                <path 
+                fill="white"
+                d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z"/>
+            </svg>
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 m-lg-4 mt-1">
+                <title>X</title>
+                <path 
+                fill="white"
+                d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z"/>
+            </svg>
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 m-lg-4 mt-1">
+                <title>YouTube</title>
+                <path 
+                fill="white"
+                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+    </div>
+
+        </div>
+
+    </div>
+    
+</footer>
+
+</body>
+</html>   
+
